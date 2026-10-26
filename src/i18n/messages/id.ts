@@ -36,31 +36,25 @@ const messages: Messages = {
       "Saya membuat ekstensi browser, aplikasi desktop, dan situs kecil di Cloudflare. Dua hal paling penting bagi saya: alat yang nyaman dipakai, dan data yang tetap di tangan pemiliknya.",
       "Aplikasi saya tidak punya akun dan tidak mengumpulkan data penggunaan. Kalau ingin sinkron, lewat Google Drive atau WebDAV milik Anda sendiri."
     ],
-    "rolesTitle": "Saya punya beberapa peran:",
+    "hats": "Saya punya beberapa peran. Sebagai [[Penerjemah regulasi]], saya menjelaskan regulasi alat kesehatan dengan bahasa yang dipahami insinyur dan mendampingi produk langkah demi langkah sampai terdaftar. Sebagai [[Si teliti soal kualitas]], saya menulis SOP, menyusun daftar periksa, dan mengawal setiap perbaikan, jadi saat audit datang kami sudah siap. Sebagai [[Gembala proyek]], saya memecah kebutuhan dan menyusun jadwal supaya tim R&D, klinis, dan bioinformatika bergerak ke arah yang sama. Saya juga [[Orang produk yang menggambar dulu]]: tidak ada kode sebelum prototipe dan basis data dipikirkan matang. Saat waktunya membangun, saya jadi [[Serba bisa full-stack]] yang menulis `C#`, `Python`, `Docker`, dan basis data, mengisi apa pun yang kurang di proyek. Dan di depan data sekuensing, saya berubah jadi [[Detektif data sekuensing]]: menemukan mutasi di data DNA-seq dan sekalian membuat pipeline analisis lebih cepat.",
     "roles": [
       {
-        "name": "Penerjemah regulasi",
-        "desc": "Saya menjelaskan regulasi alat kesehatan dengan bahasa yang dipahami insinyur, lalu mendampingi produk langkah demi langkah sampai terdaftar."
+        "name": "Penerjemah regulasi"
       },
       {
-        "name": "Si teliti soal kualitas",
-        "desc": "Saya menulis SOP, menyusun daftar periksa, dan menindaklanjuti perbaikan. Saat audit datang, kami sudah siap."
+        "name": "Si teliti soal kualitas"
       },
       {
-        "name": "Gembala proyek",
-        "desc": "Saya memecah kebutuhan dan menyusun jadwal, supaya tim R&D, klinis, dan bioinformatika bergerak ke arah yang sama."
+        "name": "Gembala proyek"
       },
       {
-        "name": "Orang produk yang menggambar dulu",
-        "desc": "Saya memikirkan prototipe dan basis data sebelum menulis kode."
+        "name": "Orang produk yang menggambar dulu"
       },
       {
-        "name": "Serba bisa full-stack",
-        "desc": "C#, Python, Docker, basis data. Apa pun yang kurang di proyek, saya lengkapi."
+        "name": "Serba bisa full-stack"
       },
       {
-        "name": "Detektif data sekuensing",
-        "desc": "Saya menemukan mutasi di data DNA-seq, dan sekalian membuat pipeline analisis berjalan lebih cepat."
+        "name": "Detektif data sekuensing"
       }
     ],
     "github": "Temukan saya di GitHub"

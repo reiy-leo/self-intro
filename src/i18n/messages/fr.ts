@@ -36,31 +36,25 @@ const messages: Messages = {
       "Je fais des extensions de navigateur, des applications de bureau et de petits sites sur Cloudflare. Deux choses comptent le plus pour moi : des outils agréables à utiliser et des données qui restent à leurs propriétaires.",
       "Mes applications n'ont pas de compte et ne collectent aucune donnée d'usage. Pour synchroniser, c'est votre propre Google Drive ou WebDAV."
     ],
-    "rolesTitle": "Je porte plusieurs casquettes :",
+    "hats": "Je porte plusieurs casquettes. En [[Traducteur de réglementation]], je rends la réglementation des dispositifs médicaux compréhensible pour les ingénieurs et j'accompagne les produits pas à pas jusqu'à l'enregistrement. En [[Pointilleux de la qualité]], j'écris des SOP, je prépare des listes de contrôle et je suis chaque correction : quand l'audit arrive, nous sommes déjà prêts. En [[Berger de projets]], je découpe les besoins et je planifie, pour que R&D, clinique et bio-informatique avancent dans la même direction. Je suis aussi un [[Produit qui dessine d'abord]] : pas de code tant que le prototype et la base de données ne sont pas réfléchis. Au moment de construire, je deviens [[Touche-à-tout full-stack]] avec `C#`, `Python`, `Docker` et des bases de données, et je comble ce qui manque au projet. Et face à des données de séquençage, je me fais [[Détective des données de séquençage]] : je trouve des mutations dans les données DNA-seq et, au passage, j'accélère les pipelines d'analyse.",
     "roles": [
       {
-        "name": "Traducteur de réglementation",
-        "desc": "Je rends la réglementation des dispositifs médicaux compréhensible pour les ingénieurs, puis j'accompagne les produits pas à pas jusqu'à l'enregistrement."
+        "name": "Traducteur de réglementation"
       },
       {
-        "name": "Pointilleux de la qualité",
-        "desc": "J'écris des SOP, je prépare des listes de contrôle et je suis les corrections. Quand l'audit arrive, nous sommes déjà prêts."
+        "name": "Pointilleux de la qualité"
       },
       {
-        "name": "Berger de projets",
-        "desc": "Je découpe les besoins et je planifie, pour que R&D, clinique et bio-informatique avancent dans la même direction."
+        "name": "Berger de projets"
       },
       {
-        "name": "Produit qui dessine d'abord",
-        "desc": "Je réfléchis au prototype et à la base de données avant d'écrire du code."
+        "name": "Produit qui dessine d'abord"
       },
       {
-        "name": "Touche-à-tout full-stack",
-        "desc": "C#, Python, Docker, bases de données. Ce qui manque au projet, je le complète."
+        "name": "Touche-à-tout full-stack"
       },
       {
-        "name": "Détective des données de séquençage",
-        "desc": "Je trouve des mutations dans les données DNA-seq et, au passage, j'accélère les pipelines d'analyse."
+        "name": "Détective des données de séquençage"
       }
     ],
     "github": "Me retrouver sur GitHub"

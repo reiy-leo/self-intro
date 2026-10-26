@@ -36,31 +36,25 @@ const messages: Messages = {
       "Ich baue Browser-Erweiterungen, Desktop-Apps und kleine Websites auf Cloudflare. Zwei Dinge sind mir am wichtigsten: Werkzeuge, die sich gut anfühlen, und Daten, die bei ihren Besitzern bleiben.",
       "Meine Apps haben keine Konten und sammeln keine Nutzungsdaten. Wer synchronisieren will, nutzt dafür sein eigenes Google Drive oder WebDAV."
     ],
-    "rolesTitle": "Ich habe mehrere Rollen:",
+    "hats": "Ich trage mehrere Hüte. Als [[Übersetzer für Vorschriften]] mache ich Medizinprodukte-Vorschriften für Ingenieure verständlich und begleite Produkte Schritt für Schritt bis zur Zulassung. Als [[Qualitäts-Pedant]] schreibe ich SOPs, erstelle Checklisten und verfolge jede Korrektur, sodass wir beim Audit längst bereit sind. Als [[Projekt-Hirte]] zerlege ich Anforderungen und plane Termine, damit Entwicklung, Klinik und Bioinformatik in dieselbe Richtung gehen. Ich bin auch ein [[Produktmensch, der zuerst zeichnet]]: kein Code, bevor Prototyp und Datenbank durchdacht sind. Geht es ans Bauen, bin ich ein [[Full-Stack-Allrounder]] mit `C#`, `Python`, `Docker` und Datenbanken und fülle jede Lücke im Projekt. Und vor Sequenzierdaten werde ich zum [[Detektiv für Sequenzierdaten]]: Ich finde Mutationen in DNA-seq-Daten und mache nebenbei die Analyse-Pipelines schneller.",
     "roles": [
       {
-        "name": "Übersetzer für Vorschriften",
-        "desc": "Ich mache Medizinprodukte-Vorschriften für Ingenieure verständlich und begleite Produkte Schritt für Schritt bis zur Zulassung."
+        "name": "Übersetzer für Vorschriften"
       },
       {
-        "name": "Qualitäts-Pedant",
-        "desc": "Ich schreibe SOPs, erstelle Checklisten und verfolge Korrekturen. Wenn das Audit kommt, sind wir längst bereit."
+        "name": "Qualitäts-Pedant"
       },
       {
-        "name": "Projekt-Hirte",
-        "desc": "Ich zerlege Anforderungen und plane Termine, damit Entwicklung, Klinik und Bioinformatik in dieselbe Richtung gehen."
+        "name": "Projekt-Hirte"
       },
       {
-        "name": "Produktmensch, der zuerst zeichnet",
-        "desc": "Ich durchdenke Prototyp und Datenbank, bevor ich Code schreibe."
+        "name": "Produktmensch, der zuerst zeichnet"
       },
       {
-        "name": "Full-Stack-Allrounder",
-        "desc": "C#, Python, Docker, Datenbanken. Was dem Projekt fehlt, ergänze ich."
+        "name": "Full-Stack-Allrounder"
       },
       {
-        "name": "Detektiv für Sequenzierdaten",
-        "desc": "Ich finde Mutationen in DNA-seq-Daten und mache nebenbei die Analyse-Pipelines schneller."
+        "name": "Detektiv für Sequenzierdaten"
       }
     ],
     "github": "Mich auf GitHub finden"

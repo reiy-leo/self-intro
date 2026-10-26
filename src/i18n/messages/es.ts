@@ -36,31 +36,25 @@ const messages: Messages = {
       "Hago extensiones de navegador, apps de escritorio y sitios pequeños en Cloudflare. Me importan dos cosas: que las herramientas sean cómodas de usar y que los datos se queden con sus dueños.",
       "Mis apps no tienen cuentas ni recogen datos de uso. Si quieres sincronizar, va por tu propio Google Drive o WebDAV."
     ],
-    "rolesTitle": "Tengo varios sombreros:",
+    "hats": "Llevo varios sombreros. Como [[Traductor de normativas]], convierto la normativa de dispositivos médicos en palabras que entiende un ingeniero y acompaño a los productos paso a paso hasta su registro. Como [[Obsesivo de la calidad]], escribo SOP, preparo listas de verificación y sigo cada corrección, así que cuando llega la auditoría ya estamos listos. Como [[Pastor de proyectos]], desgloso requisitos y planifico plazos para que I+D, clínica y bioinformática avancen en la misma dirección. También soy un [[Producto que dibuja primero]]: nada de código hasta tener claros el prototipo y la base de datos. A la hora de construir, soy un [[Todoterreno full-stack]] que escribe `C#`, `Python`, `Docker` y bases de datos, y cubre lo que le falte al proyecto. Y frente a datos de secuenciación, me convierto en [[Detective de datos de secuenciación]]: encuentro mutaciones en datos de DNA-seq y, de paso, hago más rápidos los flujos de análisis.",
     "roles": [
       {
-        "name": "Traductor de normativas",
-        "desc": "Convierto la normativa de dispositivos médicos en palabras que entiende un ingeniero y acompaño a los productos paso a paso hasta su registro."
+        "name": "Traductor de normativas"
       },
       {
-        "name": "Obsesivo de la calidad",
-        "desc": "Escribo SOP, preparo listas de verificación y hago seguimiento de las correcciones. Cuando llega la auditoría, ya estamos listos."
+        "name": "Obsesivo de la calidad"
       },
       {
-        "name": "Pastor de proyectos",
-        "desc": "Desgloso requisitos y planifico plazos para que I+D, clínica y bioinformática avancen en la misma dirección."
+        "name": "Pastor de proyectos"
       },
       {
-        "name": "Producto que dibuja primero",
-        "desc": "Pienso bien el prototipo y la base de datos antes de escribir código."
+        "name": "Producto que dibuja primero"
       },
       {
-        "name": "Todoterreno full-stack",
-        "desc": "C#, Python, Docker, bases de datos. Lo que le falte al proyecto, lo pongo yo."
+        "name": "Todoterreno full-stack"
       },
       {
-        "name": "Detective de datos de secuenciación",
-        "desc": "Encuentro mutaciones en datos de DNA-seq y, de paso, hago que los flujos de análisis vayan más rápido."
+        "name": "Detective de datos de secuenciación"
       }
     ],
     "github": "Encuéntrame en GitHub"

@@ -36,31 +36,25 @@ const messages: Messages = {
       "Faço extensões de navegador, apps de desktop e sites pequenos na Cloudflare. Duas coisas importam mais para mim: ferramentas gostosas de usar e dados que ficam com quem é dono deles.",
       "Meus apps não têm contas nem coletam dados de uso. Se você quiser sincronizar, isso passa pelo seu próprio Google Drive ou WebDAV."
     ],
-    "rolesTitle": "Eu uso alguns chapéus:",
+    "hats": "Eu uso vários chapéus. Como [[Tradutor de regulamentos]], transformo a regulamentação de dispositivos médicos em algo que engenheiros entendem e acompanho os produtos passo a passo até o registro. Como [[Caprichoso com qualidade]], escrevo SOPs, monto checklists e acompanho cada correção, então quando a auditoria chega, já estamos prontos. Como [[Pastor de projetos]], divido requisitos e planejo prazos para que P&D, clínica e bioinformática sigam na mesma direção. Também sou um [[Produto que desenha primeiro]]: nada de código antes de pensar bem no protótipo e no banco de dados. Na hora de construir, sou um [[Faz-tudo full-stack]] que escreve `C#`, `Python`, `Docker` e bancos de dados, preenchendo o que faltar no projeto. E diante de dados de sequenciamento, viro um [[Detetive de dados de sequenciamento]]: encontro mutações em dados de DNA-seq e, de quebra, deixo os pipelines de análise mais rápidos.",
     "roles": [
       {
-        "name": "Tradutor de regulamentos",
-        "desc": "Transformo a regulamentação de dispositivos médicos em algo que engenheiros entendem e acompanho os produtos passo a passo até o registro."
+        "name": "Tradutor de regulamentos"
       },
       {
-        "name": "Caprichoso com qualidade",
-        "desc": "Escrevo SOPs, monto checklists e acompanho as correções. Quando a auditoria chega, já estamos prontos."
+        "name": "Caprichoso com qualidade"
       },
       {
-        "name": "Pastor de projetos",
-        "desc": "Divido requisitos e planejo prazos para que P&D, clínica e bioinformática sigam na mesma direção."
+        "name": "Pastor de projetos"
       },
       {
-        "name": "Produto que desenha primeiro",
-        "desc": "Penso no protótipo e no banco de dados antes de escrever qualquer código."
+        "name": "Produto que desenha primeiro"
       },
       {
-        "name": "Faz-tudo full-stack",
-        "desc": "C#, Python, Docker, bancos de dados. O que faltar no projeto, eu completo."
+        "name": "Faz-tudo full-stack"
       },
       {
-        "name": "Detetive de dados de sequenciamento",
-        "desc": "Encontro mutações em dados de DNA-seq e, de quebra, deixo os pipelines de análise mais rápidos."
+        "name": "Detetive de dados de sequenciamento"
       }
     ],
     "github": "Me encontre no GitHub"

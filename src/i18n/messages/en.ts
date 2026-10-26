@@ -36,31 +36,25 @@ const messages: Messages = {
       "I build browser extensions, desktop apps and small sites on Cloudflare. Two things matter most to me: tools that feel good to use, and data that stays with the people who own it.",
       "My apps have no accounts and collect no usage data. If you want sync, it goes through your own Google Drive or WebDAV."
     ],
-    "rolesTitle": "I wear a few different hats:",
+    "hats": "I wear a few hats. As a [[Compliance translator]], I turn medical device regulations into words engineers understand and walk products step by step through registration. As a [[Quality stickler]], I write SOPs, build checklists and chase every fix, so when the auditors arrive, we're already ready. As a [[Project shepherd]], I break down requirements and plan schedules, so R&D, clinical and bioinformatics move in the same direction. I'm also a [[Product person who draws first]]: no code until the prototype and the database are thought through. When it's time to build, I'm a [[Full-stack all-rounder]] writing `C#`, `Python`, `Docker` and databases, filling whatever gap the project has. And with sequencing data in front of me, I become a [[Sequencing data detective]], finding mutations in DNA-seq data and making the analysis pipelines faster along the way.",
     "roles": [
       {
-        "name": "Compliance translator",
-        "desc": "I turn medical device regulations into words engineers understand, then guide products step by step through registration."
+        "name": "Compliance translator"
       },
       {
-        "name": "Quality stickler",
-        "desc": "I write SOPs, build checklists and follow up on fixes. When the auditors arrive, we're already ready."
+        "name": "Quality stickler"
       },
       {
-        "name": "Project shepherd",
-        "desc": "I break down requirements and plan schedules, so R&D, clinical and bioinformatics teams move in the same direction."
+        "name": "Project shepherd"
       },
       {
-        "name": "Product person who draws first",
-        "desc": "I think through the prototype and the database before writing any code."
+        "name": "Product person who draws first"
       },
       {
-        "name": "Full-stack all-rounder",
-        "desc": "C#, Python, Docker, databases. Whatever the project is missing, I fill in."
+        "name": "Full-stack all-rounder"
       },
       {
-        "name": "Sequencing data detective",
-        "desc": "I find mutations in DNA-seq data, and make the analysis pipelines run faster along the way."
+        "name": "Sequencing data detective"
       }
     ],
     "github": "Find me on GitHub"
