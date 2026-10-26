@@ -10,9 +10,13 @@ export function About() {
       <Heading as="h1" size="8" weight="bold" className="tracking-tight">
         {a.title}
       </Heading>
-      <Text as="p" size="4" className="max-w-[34em] leading-relaxed">
-        {a.intro}
-      </Text>
+      <Flex direction="column" gap="3">
+        {a.paragraphs.map((p, i) => (
+          <Text key={i} as="p" size={i === 0 ? "4" : "3"} className={`max-w-[34em] leading-relaxed ${i === 0 ? "" : "text-[var(--gray-11)]"}`}>
+            {p}
+          </Text>
+        ))}
+      </Flex>
 
       <Box>
         <Text as="p" size="2" color="gray" mb="3">
@@ -35,10 +39,6 @@ export function About() {
           ))}
         </dl>
       </Box>
-
-      <Text as="p" size="3" className="max-w-[36em] leading-relaxed text-[var(--gray-11)]">
-        {a.outro}
-      </Text>
 
       <Box>
         <Link href="https://github.com/reiy-leo" target="_blank" rel="noreferrer" size="3" color="gray" highContrast underline="hover">

@@ -30,7 +30,11 @@ const messages: Messages = {
   },
   "about": {
     "title": "Sobre",
-    "intro": "Sou o Rei. Trabalho com dados genômicos e regulamentação médica e, no tempo livre, faço pequenas ferramentas para mim.",
+    "paragraphs": [
+      "Sou o Rei. Trabalho com dados genômicos e regulamentação médica e, no tempo livre, faço pequenas ferramentas para mim.",
+      "Faço extensões de navegador, apps de desktop e sites pequenos na Cloudflare. Duas coisas importam mais para mim: ferramentas gostosas de usar e dados que ficam com quem é dono deles.",
+      "Meus apps não têm contas nem coletam dados de uso. Se você quiser sincronizar, isso passa pelo seu próprio Google Drive ou WebDAV."
+    ],
     "rolesTitle": "Eu uso alguns chapéus:",
     "roles": [
       {
@@ -58,7 +62,6 @@ const messages: Messages = {
         "desc": "Encontro mutações em dados de DNA-seq e, de quebra, deixo os pipelines de análise mais rápidos."
       }
     ],
-    "outro": "Meus apps não têm contas nem coletam dados de uso. Seus dados ficam nos seus próprios dispositivos e na sua própria nuvem.",
     "github": "Me encontre no GitHub"
   },
   "footer": {

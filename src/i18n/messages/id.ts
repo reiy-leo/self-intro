@@ -30,7 +30,11 @@ const messages: Messages = {
   },
   "about": {
     "title": "Tentang",
-    "intro": "Saya Rei. Sehari-hari saya bekerja dengan data genom dan regulasi medis, dan di waktu luang saya membuat alat-alat kecil untuk diri sendiri.",
+    "paragraphs": [
+      "Saya Rei. Sehari-hari saya bekerja dengan data genom dan regulasi medis, dan di waktu luang saya membuat alat-alat kecil untuk diri sendiri.",
+      "Saya membuat ekstensi browser, aplikasi desktop, dan situs kecil di Cloudflare. Dua hal paling penting bagi saya: alat yang nyaman dipakai, dan data yang tetap di tangan pemiliknya.",
+      "Aplikasi saya tidak punya akun dan tidak mengumpulkan data penggunaan. Kalau ingin sinkron, lewat Google Drive atau WebDAV milik Anda sendiri."
+    ],
     "rolesTitle": "Saya punya beberapa peran:",
     "roles": [
       {
@@ -58,7 +62,6 @@ const messages: Messages = {
         "desc": "Saya menemukan mutasi di data DNA-seq, dan sekalian membuat pipeline analisis berjalan lebih cepat."
       }
     ],
-    "outro": "Aplikasi saya tidak punya akun dan tidak mengumpulkan data penggunaan. Data Anda hanya ada di perangkat dan penyimpanan cloud milik Anda sendiri.",
     "github": "Temukan saya di GitHub"
   },
   "footer": {

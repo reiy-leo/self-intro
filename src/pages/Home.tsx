@@ -1,5 +1,5 @@
 import { Link as RouterLink } from "react-router";
-import { Button, Flex, Heading, Text } from "@radix-ui/themes";
+import { Badge, Button, Flex, Heading, Text } from "@radix-ui/themes";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 
@@ -13,6 +13,13 @@ export function Home() {
       <Text as="p" size={{ initial: "4", sm: "5" }} color="gray" className="max-w-[34em] leading-relaxed">
         {t.home.intro}
       </Text>
+      <Flex gap="2" wrap="wrap" className="max-w-[40em]">
+        {t.about.roles.map((r) => (
+          <Badge key={r.name} size="2" variant="soft" color="gray" radius="full">
+            {r.name}
+          </Badge>
+        ))}
+      </Flex>
       <Flex gap="3" wrap="wrap" pt="2">
         <Button asChild size="3" highContrast>
           <RouterLink to="/projects">
