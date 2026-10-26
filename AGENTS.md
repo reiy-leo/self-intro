@@ -56,3 +56,11 @@ worker/index.ts         返回内联文件的 Worker
 - 不加统计、追踪脚本。
 
 更多：`docs/PRODUCT.md`、`.agents/`。
+
+## 推荐邀请（/invites）
+
+- 公开列表，任何人可看可点；只有 `ADMIN_EMAILS`（reiy.leoz@gmail.com）用 Google 登录后能增删改。
+- 数据在 D1 `self-intro-db` 的 `invites` 表（`migrations/`）。点击走 `/go/:id`：计数 +1 后 302 到邀请链接。只计次数，不记访客信息。
+- Worker：`worker/index.ts`（路由）、`worker/auth.ts`（Google OAuth，改编自 navill-web）、`worker/invites.ts`。
+- Secrets：`SESSION_SECRET`（已设）、`GOOGLE_CLIENT_ID`、`GOOGLE_CLIENT_SECRET`（Rei 在控制台配置）。回调：`https://me.rei8t.dev/auth/callback`。
+- 登录出错回到 `/invites?login_error=<code>`，页面进来就用 `history.replaceState` 抹掉参数，提示条可关闭。
