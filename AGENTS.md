@@ -19,7 +19,9 @@ Rei 的个人网站 https://me.rei8t.dev ：主页、项目、关于三页。第
 - Tailwind v4：只引入 theme 和 utilities，**不引入 preflight**。颜色优先用 Radix 变量，比如 `text-[var(--gray-11)]`。
 - 图标：Lucide。
 - 明暗：跟随系统（`src/lib/use-system-appearance.ts`）。
-- 路由：react-router；Worker 静态资源配了 SPA 回退。
+- 路由：react-router。
+- 部署：`dist/` 由 `scripts/build-inline-assets.mjs` 内联进 `worker/index.ts`（用 API Token 部署时 Static Assets 上传会 401）。Worker 对没有扩展名的路径返回 index.html，`/assets/*` 长缓存。
+- 语言：zh、en、es、pt、ru、ja、de、fr、id，默认 zh；浏览器语言自动匹配，`?lang=xx` 可指定，选择存在 localStorage。
 
 ## 目录
 
@@ -28,8 +30,10 @@ src/
   main.tsx              入口、路由、Theme
   components/Layout.tsx 页头、导航、语言菜单、页脚
   pages/                Home / Projects / About / NotFound
-  content/              项目列表、关于页文字（按语言）
-  i18n/                 语言列表和界面文字
+  content/projects.ts   项目列表（只放链接）
+  i18n/locales.ts       语言列表
+  i18n/messages/*.ts    每种语言的全部文字，zh.ts 定类型
+worker/index.ts         返回内联文件的 Worker
   lib/                  工具函数
 ```
 
@@ -37,13 +41,13 @@ src/
 
 - `pnpm dev` 本地开发
 - `pnpm build` 类型检查 + 构建
-- `pnpm deploy` 构建并部署（Worker 名 `self-intro`，自定义域名 `me.rei8t.dev`）
+- `pnpm run deploy` 构建、内联并部署（Worker 名 `self-intro`，自定义域名 `me.rei8t.dev`）
 
 ## 约定
 
 - 每轮改完都 commit 并 push 到 `main`。
 - 中文文案要像人说话：少被动、少「进行」「通过」「作为」，短句。
-- 加语言时，在 `src/i18n/locales.ts` 和 `src/content/` 里同时补齐，不留空。
+- 改文字时 9 种语言一起改，不留空；先改 `zh.ts`。
 - 发版（打 tag）前先问 Rei。
 
 ## 禁止

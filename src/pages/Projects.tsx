@@ -5,7 +5,7 @@ import { useI18n } from "@/i18n";
 import { PROJECTS } from "@/content/projects";
 
 export function Projects() {
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
   return (
     <Flex direction="column" gap="6">
       <Box>
@@ -18,14 +18,14 @@ export function Projects() {
       </Box>
       <Flex direction="column">
         {PROJECTS.map((p, i) => (
-          <Fragment key={p.repo ?? i}>
+          <Fragment key={p.id}>
             {i > 0 && <Separator size="4" />}
             <Flex direction="column" gap="2" py="5">
               <Heading as="h2" size="4" weight="medium">
-                {typeof p.name === "string" ? p.name : p.name[locale]}
+                {p.name ?? t.projects.names[p.id as keyof typeof t.projects.names]}
               </Heading>
               <Text as="p" size="3" color="gray" className="leading-relaxed">
-                {p.summary[locale]}
+                {t.projects.summaries[p.id]}
               </Text>
               <Flex gap="4" pt="1">
                 {p.site && (

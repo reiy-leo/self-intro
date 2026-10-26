@@ -3,9 +3,20 @@ import { DEFAULT_LOCALE, LOCALES, MESSAGES, type Locale, type Messages } from ".
 
 const STORAGE_KEY = "locale";
 
+const isLocale = (v: string | null): v is Locale => !!v && LOCALES.some((l) => l.code === v);
+
 function detectLocale(): Locale {
+  // 链接里带 ?lang=ja 时用它并记住，方便把某种语言的页面直接发给别人。
+  const url = new URL(window.location.href);
+  const fromUrl = url.searchParams.get("lang");
+  if (isLocale(fromUrl)) {
+    localStorage.setItem(STORAGE_KEY, fromUrl);
+    url.searchParams.delete("lang");
+    history.replaceState(null, "", url.pathname + url.search + url.hash);
+    return fromUrl;
+  }
   const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved && LOCALES.some((l) => l.code === saved)) return saved as Locale;
+  if (isLocale(saved)) return saved;
   for (const lang of navigator.languages ?? [navigator.language]) {
     const base = lang.toLowerCase().split("-")[0];
     const hit = LOCALES.find((l) => l.code === base);

@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "deploy": "pnpm build && wrangler deploy"
+    "deploy": "pnpm build && node scripts/build-inline-assets.mjs && wrangler deploy"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.3.0",

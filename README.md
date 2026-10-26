@@ -17,14 +17,14 @@ Rei 的个人网站，地址 https://me.rei8t.dev 。三页：主页、项目、
 pnpm install
 pnpm dev       # 本地开发
 pnpm build     # 构建到 dist/
-pnpm deploy    # 构建并部署到 Cloudflare
+pnpm run deploy  # 构建、内联进 Worker 并部署到 Cloudflare
 ```
 
 ## 改内容
 
-- 项目列表：`src/content/projects.ts`
-- 关于页：`src/content/about.ts`
-- 界面文字和语言：`src/i18n/locales.ts`
+- 项目列表（链接）：`src/content/projects.ts`
+- 所有文字（界面、项目说明、关于页）：`src/i18n/messages/<语言>.ts`，以 `zh.ts` 为准
+- 支持 9 种语言：zh、en、es、pt、ru、ja、de、fr、id。默认中文，按浏览器语言自动选，也可以在链接后加 `?lang=ja` 指定
 
 ## 许可证
 

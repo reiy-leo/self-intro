@@ -19,3 +19,6 @@
 html, body { margin: 0; }
 body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 a { color: inherit; }
+
+/* 日文标题按词组换行，避免「で / す。」这样断开。 */
+:lang(ja) h1, :lang(ja) h2 { word-break: auto-phrase; }
