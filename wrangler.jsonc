@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "self-intro",
+  "compatibility_date": "2026-10-20",
+  "account_id": "9151f72e404dd53f20b8e6667893237d",
+  "workers_dev": false,
+  "routes": [{ "pattern": "me.rei8t.dev", "custom_domain": true }],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "observability": { "enabled": true }
+}

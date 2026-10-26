@@ -1,0 +1,54 @@
+# AGENTS.md
+
+给在这个仓库里干活的 AI 和人看的说明。
+
+## 目标
+
+Rei 的个人网站 https://me.rei8t.dev ：主页、项目、关于三页。第一要求是简洁、克制、大方。
+
+## 边界
+
+- 纯静态站：没有登录、没有后端数据、没有统计。
+- 不加花哨动画和装饰图，留白优先。
+
+## 技术栈
+
+- React + Vite + TypeScript，**只用 pnpm**，不用 npm（只提交 `pnpm-lock.yaml`）。
+- Radix Themes：排版、颜色 token、布局。强调色 gray，灰阶 slate。用到新颜色时在 `src/index.css` 里补对应的 token 文件。
+- shadcn/ui：只补 Radix Themes 没有的组件，放 `src/components/ui/`，配置见 `components.json`。
+- Tailwind v4：只引入 theme 和 utilities，**不引入 preflight**。颜色优先用 Radix 变量，比如 `text-[var(--gray-11)]`。
+- 图标：Lucide。
+- 明暗：跟随系统（`src/lib/use-system-appearance.ts`）。
+- 路由：react-router；Worker 静态资源配了 SPA 回退。
+
+## 目录
+
+```
+src/
+  main.tsx              入口、路由、Theme
+  components/Layout.tsx 页头、导航、语言菜单、页脚
+  pages/                Home / Projects / About / NotFound
+  content/              项目列表、关于页文字（按语言）
+  i18n/                 语言列表和界面文字
+  lib/                  工具函数
+```
+
+## 命令
+
+- `pnpm dev` 本地开发
+- `pnpm build` 类型检查 + 构建
+- `pnpm deploy` 构建并部署（Worker 名 `self-intro`，自定义域名 `me.rei8t.dev`）
+
+## 约定
+
+- 每轮改完都 commit 并 push 到 `main`。
+- 中文文案要像人说话：少被动、少「进行」「通过」「作为」，短句。
+- 加语言时，在 `src/i18n/locales.ts` 和 `src/content/` 里同时补齐，不留空。
+- 发版（打 tag）前先问 Rei。
+
+## 禁止
+
+- 不提交密钥、`.dev.vars`、部署 key。
+- 不加统计、追踪脚本。
+
+更多：`docs/PRODUCT.md`、`.agents/`。
