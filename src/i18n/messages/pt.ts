@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "Início",
     "projects": "Projetos",
-    "about": "Sobre"
+    "about": "Sobre",
+    "invites": "Indicações"
   },
   "language": "Idioma",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "Me encontre no GitHub"
+  },
+  "invites": {
+    "title": "Indicações",
+    "lead": "Serviços que uso e de que gosto. Se você se cadastrar por estes links, normalmente nós dois ganhamos uma pequena recompensa.",
+    "empty": "Ainda não há links de indicação.",
+    "clicks": "{n} cliques",
+    "add": "Adicionar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "confirmDelete": "Excluir esta indicação?",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "fieldTitle": "Nome",
+    "fieldUrl": "Link de indicação",
+    "fieldIntro": "Descrição (opcional)",
+    "login": "Login do administrador",
+    "logout": "Sair",
+    "signedIn": "Conectado como {email}",
+    "loginFailed": "Não foi possível entrar. Tente novamente.",
+    "loginForbidden": "Esta conta do Google não tem acesso de administrador.",
+    "loginUnconfigured": "O login ainda não está configurado.",
+    "loadFailed": "Não foi possível carregar. Atualize e tente novamente.",
+    "saveFailed": "Não foi possível salvar: "
   },
   "footer": {
     "license": "Código aberto sob a licença MIT"

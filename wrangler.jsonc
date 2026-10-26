@@ -7,5 +7,10 @@
   "account_id": "9151f72e404dd53f20b8e6667893237d",
   "workers_dev": false,
   "routes": [{ "pattern": "me.rei8t.dev", "custom_domain": true }],
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  "d1_databases": [{ "binding": "DB", "database_name": "self-intro-db", "database_id": "d7c93ef3-d5fa-4288-901a-8186a2b2dede", "migrations_dir": "migrations" }],
+  "vars": { "ADMIN_EMAILS": "reiy.leoz@gmail.com" },
+  // GOOGLE_CLIENT_ID 由 Rei 在控制台配置（变量或 secret 均可），保留控制台里的明文变量
+  "keep_vars": true
+  // secrets：SESSION_SECRET（本项目单独生成）、GOOGLE_CLIENT_ID、GOOGLE_CLIENT_SECRET
 }

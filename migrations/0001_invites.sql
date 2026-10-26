@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS invites (
+  id TEXT PRIMARY KEY,
+  title TEXT NOT NULL,
+  url TEXT NOT NULL,
+  intro TEXT NOT NULL DEFAULT '',
+  clicks INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL
+);

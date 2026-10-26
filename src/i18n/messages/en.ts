@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "Home",
     "projects": "Projects",
-    "about": "About"
+    "about": "About",
+    "invites": "Referrals"
   },
   "language": "Language",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "Find me on GitHub"
+  },
+  "invites": {
+    "title": "Referrals",
+    "lead": "Services I use and like. If you sign up through these links, we both usually get a small reward.",
+    "empty": "No referral links yet.",
+    "clicks": "{n} clicks",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Delete this referral?",
+    "save": "Save",
+    "cancel": "Cancel",
+    "fieldTitle": "Name",
+    "fieldUrl": "Referral link",
+    "fieldIntro": "Description (optional)",
+    "login": "Admin sign-in",
+    "logout": "Sign out",
+    "signedIn": "Signed in as {email}",
+    "loginFailed": "Sign-in failed. Please try again.",
+    "loginForbidden": "This Google account doesn't have admin access.",
+    "loginUnconfigured": "Sign-in isn't set up yet.",
+    "loadFailed": "Couldn't load. Please refresh and try again.",
+    "saveFailed": "Couldn't save: "
   },
   "footer": {
     "license": "Source code under the MIT License"

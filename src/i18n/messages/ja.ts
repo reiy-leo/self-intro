@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "ホーム",
     "projects": "プロジェクト",
-    "about": "自己紹介"
+    "about": "自己紹介",
+    "invites": "招待リンク"
   },
   "language": "言語",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "GitHub はこちら"
+  },
+  "invites": {
+    "title": "招待リンク",
+    "lead": "自分で使っていて気に入っているサービスです。下のリンクから登録すると、たいていお互いにちょっとした特典がもらえます。",
+    "empty": "招待リンクはまだありません。",
+    "clicks": "{n} クリック",
+    "add": "追加",
+    "edit": "編集",
+    "delete": "削除",
+    "confirmDelete": "この招待リンクを削除しますか？",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "fieldTitle": "名前",
+    "fieldUrl": "招待リンク",
+    "fieldIntro": "説明（任意）",
+    "login": "管理者ログイン",
+    "logout": "ログアウト",
+    "signedIn": "{email} でログイン中",
+    "loginFailed": "ログインできませんでした。もう一度お試しください。",
+    "loginForbidden": "この Google アカウントには管理権限がありません。",
+    "loginUnconfigured": "ログインはまだ設定されていません。",
+    "loadFailed": "読み込めませんでした。再読み込みしてください。",
+    "saveFailed": "保存できませんでした："
   },
   "footer": {
     "license": "ソースコードは MIT ライセンスで公開"

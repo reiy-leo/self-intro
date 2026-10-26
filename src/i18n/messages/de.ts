@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "Start",
     "projects": "Projekte",
-    "about": "Über mich"
+    "about": "Über mich",
+    "invites": "Empfehlungen"
   },
   "language": "Sprache",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "Mich auf GitHub finden"
+  },
+  "invites": {
+    "title": "Empfehlungen",
+    "lead": "Dienste, die ich selbst nutze und mag. Wenn du dich über diese Links anmeldest, bekommen wir meist beide eine kleine Belohnung.",
+    "empty": "Noch keine Empfehlungslinks.",
+    "clicks": "{n} Klicks",
+    "add": "Hinzufügen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "confirmDelete": "Diese Empfehlung löschen?",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "fieldTitle": "Name",
+    "fieldUrl": "Empfehlungslink",
+    "fieldIntro": "Beschreibung (optional)",
+    "login": "Admin-Anmeldung",
+    "logout": "Abmelden",
+    "signedIn": "Angemeldet als {email}",
+    "loginFailed": "Anmeldung fehlgeschlagen. Bitte versuche es erneut.",
+    "loginForbidden": "Dieses Google-Konto hat keine Admin-Rechte.",
+    "loginUnconfigured": "Die Anmeldung ist noch nicht eingerichtet.",
+    "loadFailed": "Laden fehlgeschlagen. Bitte neu laden.",
+    "saveFailed": "Speichern fehlgeschlagen: "
   },
   "footer": {
     "license": "Quellcode unter MIT-Lizenz"

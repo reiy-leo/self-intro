@@ -63,6 +63,7 @@ export function Layout() {
               <nav>
                 <NavItem to="/">{t.nav.home}</NavItem>
                 <NavItem to="/projects">{t.nav.projects}</NavItem>
+                <NavItem to="/invites">{t.nav.invites}</NavItem>
                 <NavItem to="/about">{t.nav.about}</NavItem>
                 <LanguageMenu />
               </nav>

@@ -9,13 +9,14 @@ import { Layout } from "@/components/Layout";
 import { Home } from "@/pages/Home";
 import { Projects } from "@/pages/Projects";
 import { About } from "@/pages/About";
+import { Invites } from "@/pages/Invites";
 import { NotFound } from "@/pages/NotFound";
 
 function TitleSync() {
   const { pathname } = useLocation();
   const { t } = useI18n();
   useEffect(() => {
-    const page = pathname === "/projects" ? t.nav.projects : pathname === "/about" ? t.nav.about : null;
+    const page = pathname === "/projects" ? t.nav.projects : pathname === "/about" ? t.nav.about : pathname === "/invites" ? t.nav.invites : null;
     document.title = page ? `${page} · Rei` : "Rei";
     window.scrollTo(0, 0);
   }, [pathname, t]);
@@ -33,6 +34,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="projects" element={<Projects />} />
             <Route path="about" element={<About />} />
+            <Route path="invites" element={<Invites />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

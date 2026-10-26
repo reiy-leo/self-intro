@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "Accueil",
     "projects": "Projets",
-    "about": "À propos"
+    "about": "À propos",
+    "invites": "Parrainages"
   },
   "language": "Langue",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "Me retrouver sur GitHub"
+  },
+  "invites": {
+    "title": "Parrainages",
+    "lead": "Des services que j'utilise et que j'aime. Si vous vous inscrivez via ces liens, nous recevons en général tous les deux une petite récompense.",
+    "empty": "Aucun lien de parrainage pour l'instant.",
+    "clicks": "{n} clics",
+    "add": "Ajouter",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirmDelete": "Supprimer ce parrainage ?",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "fieldTitle": "Nom",
+    "fieldUrl": "Lien de parrainage",
+    "fieldIntro": "Description (facultatif)",
+    "login": "Connexion administrateur",
+    "logout": "Se déconnecter",
+    "signedIn": "Connecté en tant que {email}",
+    "loginFailed": "La connexion a échoué. Veuillez réessayer.",
+    "loginForbidden": "Ce compte Google n'a pas les droits d'administration.",
+    "loginUnconfigured": "La connexion n'est pas encore configurée.",
+    "loadFailed": "Chargement impossible. Actualisez la page.",
+    "saveFailed": "Enregistrement impossible : "
   },
   "footer": {
     "license": "Code source sous licence MIT"

@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "Inicio",
     "projects": "Proyectos",
-    "about": "Sobre mí"
+    "about": "Sobre mí",
+    "invites": "Referidos"
   },
   "language": "Idioma",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "Encuéntrame en GitHub"
+  },
+  "invites": {
+    "title": "Referidos",
+    "lead": "Servicios que uso y me gustan. Si te registras con estos enlaces, normalmente los dos recibimos una pequeña recompensa.",
+    "empty": "Todavía no hay enlaces de referido.",
+    "clicks": "{n} clics",
+    "add": "Añadir",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Eliminar este referido?",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "fieldTitle": "Nombre",
+    "fieldUrl": "Enlace de referido",
+    "fieldIntro": "Descripción (opcional)",
+    "login": "Acceso de administrador",
+    "logout": "Cerrar sesión",
+    "signedIn": "Sesión iniciada: {email}",
+    "loginFailed": "No se pudo iniciar sesión. Inténtalo de nuevo.",
+    "loginForbidden": "Esta cuenta de Google no tiene permisos de administrador.",
+    "loginUnconfigured": "El inicio de sesión aún no está configurado.",
+    "loadFailed": "No se pudo cargar. Actualiza e inténtalo de nuevo.",
+    "saveFailed": "No se pudo guardar: "
   },
   "footer": {
     "license": "Código abierto bajo licencia MIT"

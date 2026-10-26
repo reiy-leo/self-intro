@@ -4,7 +4,8 @@ const messages: Messages = {
   "nav": {
     "home": "Beranda",
     "projects": "Proyek",
-    "about": "Tentang"
+    "about": "Tentang",
+    "invites": "Referal"
   },
   "language": "Bahasa",
   "home": {
@@ -63,6 +64,29 @@ const messages: Messages = {
       }
     ],
     "github": "Temukan saya di GitHub"
+  },
+  "invites": {
+    "title": "Referal",
+    "lead": "Layanan yang saya pakai dan saya suka. Kalau Anda mendaftar lewat tautan ini, biasanya kita berdua dapat hadiah kecil.",
+    "empty": "Belum ada tautan referal.",
+    "clicks": "{n} klik",
+    "add": "Tambah",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "confirmDelete": "Hapus referal ini?",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "fieldTitle": "Nama",
+    "fieldUrl": "Tautan referal",
+    "fieldIntro": "Deskripsi (opsional)",
+    "login": "Masuk admin",
+    "logout": "Keluar",
+    "signedIn": "Masuk sebagai {email}",
+    "loginFailed": "Gagal masuk. Silakan coba lagi.",
+    "loginForbidden": "Akun Google ini tidak punya akses admin.",
+    "loginUnconfigured": "Login belum disiapkan.",
+    "loadFailed": "Gagal memuat. Silakan muat ulang.",
+    "saveFailed": "Gagal menyimpan: "
   },
   "footer": {
     "license": "Kode sumber berlisensi MIT"

@@ -2,7 +2,8 @@ const messages = {
   "nav": {
     "home": "主页",
     "projects": "项目",
-    "about": "关于"
+    "about": "关于",
+    "invites": "推荐邀请"
   },
   "language": "语言",
   "home": {
@@ -61,6 +62,29 @@ const messages = {
       }
     ],
     "github": "在 GitHub 上找我"
+  },
+  "invites": {
+    "title": "推荐邀请",
+    "lead": "我自己在用、觉得不错的服务。通过下面的链接注册，我们俩通常都能拿到一点奖励。",
+    "empty": "还没有邀请链接。",
+    "clicks": "{n} 次点击",
+    "add": "添加",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirmDelete": "确定删除这条邀请吗？",
+    "save": "保存",
+    "cancel": "取消",
+    "fieldTitle": "名称",
+    "fieldUrl": "邀请链接",
+    "fieldIntro": "简介（可选）",
+    "login": "管理员登录",
+    "logout": "退出登录",
+    "signedIn": "已登录：{email}",
+    "loginFailed": "登录没有成功，请再试一次。",
+    "loginForbidden": "这个 Google 账号没有管理权限。",
+    "loginUnconfigured": "登录还没配置好。",
+    "loadFailed": "加载失败，请刷新重试。",
+    "saveFailed": "保存失败："
   },
   "footer": {
     "license": "代码以 MIT 许可证开源"
