@@ -4,20 +4,46 @@ import { useI18n } from "@/i18n";
 
 export function About() {
   const { t } = useI18n();
+  const a = t.about;
   return (
-    <Flex direction="column" gap="5">
+    <Flex direction="column" gap="6">
       <Heading as="h1" size="8" weight="bold" className="tracking-tight">
-        {t.about.title}
+        {a.title}
       </Heading>
-      {t.about.paragraphs.map((para, i) => (
-        <Text key={i} as="p" size="3" className="max-w-[36em] leading-relaxed text-[var(--gray-11)]">
-          {para}
+      <Text as="p" size="4" className="max-w-[34em] leading-relaxed">
+        {a.intro}
+      </Text>
+
+      <Box>
+        <Text as="p" size="2" color="gray" mb="3">
+          {a.rolesTitle}
         </Text>
-      ))}
-      <Box pt="2">
+        <dl className="m-0 grid gap-x-8 gap-y-4 sm:grid-cols-[minmax(9rem,max-content)_1fr]">
+          {a.roles.map((r) => (
+            <div key={r.name} className="contents">
+              <dt>
+                <Text size="3" weight="medium">
+                  {r.name}
+                </Text>
+              </dt>
+              <dd className="m-0 -mt-3 sm:mt-0">
+                <Text size="3" className="leading-relaxed text-[var(--gray-11)]">
+                  {r.desc}
+                </Text>
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </Box>
+
+      <Text as="p" size="3" className="max-w-[36em] leading-relaxed text-[var(--gray-11)]">
+        {a.outro}
+      </Text>
+
+      <Box>
         <Link href="https://github.com/reiy-leo" target="_blank" rel="noreferrer" size="3" color="gray" highContrast underline="hover">
           <Flex align="center" gap="1">
-            {t.about.github}
+            {a.github}
             <ArrowUpRight size={16} />
           </Flex>
         </Link>

@@ -30,11 +30,35 @@ const messages: Messages = {
   },
   "about": {
     "title": "À propos",
-    "paragraphs": [
-      "Je suis Rei, un développeur qui adore bricoler des outils.",
-      "Je fais des extensions de navigateur, des applications de bureau et de petits sites sur Cloudflare. Deux choses comptent le plus pour moi : des outils agréables à utiliser et des données qui restent à leurs propriétaires.",
-      "Mes applications n'ont pas de compte et ne collectent aucune donnée d'usage. Pour synchroniser, c'est votre propre Google Drive ou WebDAV."
+    "intro": "Je suis Rei. Je travaille avec des données génomiques et la réglementation médicale, et sur mon temps libre je fabrique de petits outils pour moi.",
+    "rolesTitle": "Je porte plusieurs casquettes :",
+    "roles": [
+      {
+        "name": "Traducteur de réglementation",
+        "desc": "Je rends la réglementation des dispositifs médicaux compréhensible pour les ingénieurs, puis j'accompagne les produits pas à pas jusqu'à l'enregistrement."
+      },
+      {
+        "name": "Pointilleux de la qualité",
+        "desc": "J'écris des SOP, je prépare des listes de contrôle et je suis les corrections. Quand l'audit arrive, nous sommes déjà prêts."
+      },
+      {
+        "name": "Berger de projets",
+        "desc": "Je découpe les besoins et je planifie, pour que R&D, clinique et bio-informatique avancent dans la même direction."
+      },
+      {
+        "name": "Produit qui dessine d'abord",
+        "desc": "Je réfléchis au prototype et à la base de données avant d'écrire du code."
+      },
+      {
+        "name": "Touche-à-tout full-stack",
+        "desc": "C#, Python, Docker, bases de données. Ce qui manque au projet, je le complète."
+      },
+      {
+        "name": "Détective des données de séquençage",
+        "desc": "Je trouve des mutations dans les données DNA-seq et, au passage, j'accélère les pipelines d'analyse."
+      }
     ],
+    "outro": "Mes applications n'ont pas de compte et ne collectent aucune donnée d'usage. Vos données restent sur vos propres appareils et votre propre cloud.",
     "github": "Me retrouver sur GitHub"
   },
   "footer": {

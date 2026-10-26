@@ -30,11 +30,35 @@ const messages: Messages = {
   },
   "about": {
     "title": "About",
-    "paragraphs": [
-      "I'm Rei, a developer who loves tinkering with tools.",
-      "I build browser extensions, desktop apps and small sites on Cloudflare. Two things matter most to me: tools that feel good to use, and data that stays with the people who own it.",
-      "My apps have no accounts and collect no usage data. If you want sync, it goes through your own Google Drive or WebDAV."
+    "intro": "I'm Rei. I work with genomic data and medical regulations, and in my spare time I build small tools for myself.",
+    "rolesTitle": "I wear a few different hats:",
+    "roles": [
+      {
+        "name": "Compliance translator",
+        "desc": "I turn medical device regulations into words engineers understand, then guide products step by step through registration."
+      },
+      {
+        "name": "Quality stickler",
+        "desc": "I write SOPs, build checklists and follow up on fixes. When the auditors arrive, we're already ready."
+      },
+      {
+        "name": "Project shepherd",
+        "desc": "I break down requirements and plan schedules, so R&D, clinical and bioinformatics teams move in the same direction."
+      },
+      {
+        "name": "Product person who draws first",
+        "desc": "I think through the prototype and the database before writing any code."
+      },
+      {
+        "name": "Full-stack all-rounder",
+        "desc": "C#, Python, Docker, databases. Whatever the project is missing, I fill in."
+      },
+      {
+        "name": "Sequencing data detective",
+        "desc": "I find mutations in DNA-seq data, and make the analysis pipelines run faster along the way."
+      }
     ],
+    "outro": "My apps have no accounts and collect no usage data. Your data stays on your own devices and your own cloud storage.",
     "github": "Find me on GitHub"
   },
   "footer": {

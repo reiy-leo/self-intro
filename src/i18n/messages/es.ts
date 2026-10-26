@@ -30,11 +30,35 @@ const messages: Messages = {
   },
   "about": {
     "title": "Sobre mí",
-    "paragraphs": [
-      "Soy Rei, un desarrollador al que le encanta trastear con herramientas.",
-      "Hago extensiones de navegador, apps de escritorio y sitios pequeños en Cloudflare. Me importan dos cosas: que las herramientas sean cómodas de usar y que los datos se queden con sus dueños.",
-      "Mis apps no tienen cuentas ni recogen datos de uso. Si quieres sincronizar, va por tu propio Google Drive o WebDAV."
+    "intro": "Soy Rei. Trabajo con datos genómicos y normativa médica, y en mi tiempo libre hago pequeñas herramientas para mí.",
+    "rolesTitle": "Tengo varios sombreros:",
+    "roles": [
+      {
+        "name": "Traductor de normativas",
+        "desc": "Convierto la normativa de dispositivos médicos en palabras que entiende un ingeniero y acompaño a los productos paso a paso hasta su registro."
+      },
+      {
+        "name": "Obsesivo de la calidad",
+        "desc": "Escribo SOP, preparo listas de verificación y hago seguimiento de las correcciones. Cuando llega la auditoría, ya estamos listos."
+      },
+      {
+        "name": "Pastor de proyectos",
+        "desc": "Desgloso requisitos y planifico plazos para que I+D, clínica y bioinformática avancen en la misma dirección."
+      },
+      {
+        "name": "Producto que dibuja primero",
+        "desc": "Pienso bien el prototipo y la base de datos antes de escribir código."
+      },
+      {
+        "name": "Todoterreno full-stack",
+        "desc": "C#, Python, Docker, bases de datos. Lo que le falte al proyecto, lo pongo yo."
+      },
+      {
+        "name": "Detective de datos de secuenciación",
+        "desc": "Encuentro mutaciones en datos de DNA-seq y, de paso, hago que los flujos de análisis vayan más rápido."
+      }
     ],
+    "outro": "Mis apps no tienen cuentas ni recogen datos de uso. Tus datos se quedan en tus propios dispositivos y en tu propia nube.",
     "github": "Encuéntrame en GitHub"
   },
   "footer": {

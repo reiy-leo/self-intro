@@ -30,11 +30,35 @@ const messages: Messages = {
   },
   "about": {
     "title": "Über mich",
-    "paragraphs": [
-      "Ich bin Rei, ein Entwickler, der gern an Werkzeugen tüftelt.",
-      "Ich baue Browser-Erweiterungen, Desktop-Apps und kleine Websites auf Cloudflare. Zwei Dinge sind mir am wichtigsten: Werkzeuge, die sich gut anfühlen, und Daten, die bei ihren Besitzern bleiben.",
-      "Meine Apps haben keine Konten und sammeln keine Nutzungsdaten. Wer synchronisieren will, nutzt dafür sein eigenes Google Drive oder WebDAV."
+    "intro": "Ich bin Rei. Ich arbeite mit Genomdaten und Medizinprodukte-Vorschriften und baue in meiner Freizeit kleine Werkzeuge für mich selbst.",
+    "rolesTitle": "Ich habe mehrere Rollen:",
+    "roles": [
+      {
+        "name": "Übersetzer für Vorschriften",
+        "desc": "Ich mache Medizinprodukte-Vorschriften für Ingenieure verständlich und begleite Produkte Schritt für Schritt bis zur Zulassung."
+      },
+      {
+        "name": "Qualitäts-Pedant",
+        "desc": "Ich schreibe SOPs, erstelle Checklisten und verfolge Korrekturen. Wenn das Audit kommt, sind wir längst bereit."
+      },
+      {
+        "name": "Projekt-Hirte",
+        "desc": "Ich zerlege Anforderungen und plane Termine, damit Entwicklung, Klinik und Bioinformatik in dieselbe Richtung gehen."
+      },
+      {
+        "name": "Produktmensch, der zuerst zeichnet",
+        "desc": "Ich durchdenke Prototyp und Datenbank, bevor ich Code schreibe."
+      },
+      {
+        "name": "Full-Stack-Allrounder",
+        "desc": "C#, Python, Docker, Datenbanken. Was dem Projekt fehlt, ergänze ich."
+      },
+      {
+        "name": "Detektiv für Sequenzierdaten",
+        "desc": "Ich finde Mutationen in DNA-seq-Daten und mache nebenbei die Analyse-Pipelines schneller."
+      }
     ],
+    "outro": "Meine Apps haben keine Konten und sammeln keine Nutzungsdaten. Deine Daten bleiben auf deinen eigenen Geräten und in deinem eigenen Cloud-Speicher.",
     "github": "Mich auf GitHub finden"
   },
   "footer": {

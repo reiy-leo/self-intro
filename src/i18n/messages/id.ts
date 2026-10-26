@@ -30,11 +30,35 @@ const messages: Messages = {
   },
   "about": {
     "title": "Tentang",
-    "paragraphs": [
-      "Saya Rei, pengembang yang senang mengutak-atik alat.",
-      "Saya membuat ekstensi browser, aplikasi desktop, dan situs kecil di Cloudflare. Dua hal paling penting bagi saya: alat yang nyaman dipakai, dan data yang tetap di tangan pemiliknya.",
-      "Aplikasi saya tidak punya akun dan tidak mengumpulkan data penggunaan. Kalau ingin sinkron, lewat Google Drive atau WebDAV milik Anda sendiri."
+    "intro": "Saya Rei. Sehari-hari saya bekerja dengan data genom dan regulasi medis, dan di waktu luang saya membuat alat-alat kecil untuk diri sendiri.",
+    "rolesTitle": "Saya punya beberapa peran:",
+    "roles": [
+      {
+        "name": "Penerjemah regulasi",
+        "desc": "Saya menjelaskan regulasi alat kesehatan dengan bahasa yang dipahami insinyur, lalu mendampingi produk langkah demi langkah sampai terdaftar."
+      },
+      {
+        "name": "Si teliti soal kualitas",
+        "desc": "Saya menulis SOP, menyusun daftar periksa, dan menindaklanjuti perbaikan. Saat audit datang, kami sudah siap."
+      },
+      {
+        "name": "Gembala proyek",
+        "desc": "Saya memecah kebutuhan dan menyusun jadwal, supaya tim R&D, klinis, dan bioinformatika bergerak ke arah yang sama."
+      },
+      {
+        "name": "Orang produk yang menggambar dulu",
+        "desc": "Saya memikirkan prototipe dan basis data sebelum menulis kode."
+      },
+      {
+        "name": "Serba bisa full-stack",
+        "desc": "C#, Python, Docker, basis data. Apa pun yang kurang di proyek, saya lengkapi."
+      },
+      {
+        "name": "Detektif data sekuensing",
+        "desc": "Saya menemukan mutasi di data DNA-seq, dan sekalian membuat pipeline analisis berjalan lebih cepat."
+      }
     ],
+    "outro": "Aplikasi saya tidak punya akun dan tidak mengumpulkan data penggunaan. Data Anda hanya ada di perangkat dan penyimpanan cloud milik Anda sendiri.",
     "github": "Temukan saya di GitHub"
   },
   "footer": {
