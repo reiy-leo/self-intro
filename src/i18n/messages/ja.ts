@@ -23,7 +23,8 @@ const messages: Messages = {
       "reicky": "reicky",
       "mindough": "Mindough",
       "sideDock": "Side Dock",
-      "melodyKeeeys": "Melody Keeeys"
+      "melodyKeeeys": "Melody Keeeys",
+      "vectorWallpapers": "Vector Wallpapers"
     },
     "summaries": {
       "navill": "ブックマークを一度取り込み、ワークスペースと引き出しに整理された新しいタブにするブラウザ拡張。自分の Google Drive で同期できます。",
@@ -32,7 +33,8 @@ const messages: Messages = {
       "ydiyr": "データは持ち主の手元に置くべき理由を書いた一枚のマニフェストと、その考えで作ったアプリの一覧。",
       "mindough": "開発中のマルチデバイス対応タスク管理。タスクを順番につなげ、前のタスクが終わると次が現れます。習慣ヒートマップ、日記、ライブラリも。",
       "sideDock": "Mac のメニューバーツール。デスクトップごとに専用の Dock バーを追加し、システムの Dock はそのまま。システム権限は不要で、終了しても痕跡を残しません。",
-      "melodyKeeeys": "メニューバーから鳴らすキーボード音。実際に録音した打鍵音を 22 種類収録し、macOS・Windows・Linux で使えます。"
+      "melodyKeeeys": "メニューバーから鳴らすキーボード音。実際に録音した打鍵音を 22 種類収録し、macOS・Windows・Linux で使えます。",
+      "vectorWallpapers": "SVG のデスクトップ壁紙ジェネレーター。パターンを選び、要素ごとに色を変えて書き出せます。パターンは 27 種類。"
     }
   },
   "about": {

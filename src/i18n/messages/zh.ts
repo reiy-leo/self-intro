@@ -21,7 +21,8 @@ const messages = {
       "reicky": "reicky 灵气贴纸",
       "mindough": "Mindough 念头团",
       "sideDock": "Side Dock 侧边坞",
-      "melodyKeeeys": "Melody Keeeys 旋律键音"
+      "melodyKeeeys": "Melody Keeeys 旋律键音",
+      "vectorWallpapers": "Vector Wallpapers 矢量壁纸"
     },
     "summaries": {
       "navill": "浏览器扩展。把书签一次导进来，整理成「工作区 → 抽屉 → 书签」，打开新标签页就能用。可同步到你自己的 Google Drive。",
@@ -30,7 +31,8 @@ const messages = {
       "ydiyr": "一页宣言：讲我为什么让数据留在用户自己手里，也列出照这个原则做的应用。",
       "mindough": "正在做的多端任务管理：任务能排先后，前一件做完，后一件才冒出来；还带打卡热力图、日记和资料库。",
       "sideDock": "Mac 菜单栏小工具：给每个桌面加一条自己的 Dock 栏，系统 Dock 原样不动。不要任何系统权限，退出也不留痕迹。",
-      "melodyKeeeys": "菜单栏里的键盘音效：敲键盘时放真实录下来的按键声，内置 22 套音效，macOS、Windows、Linux 都能用。"
+      "melodyKeeeys": "菜单栏里的键盘音效：敲键盘时放真实录下来的按键声，内置 22 套音效，macOS、Windows、Linux 都能用。",
+      "vectorWallpapers": "SVG 桌面壁纸生成器：挑一个图案，每个元件都能单独上色，调好就导出。内置 27 种图案。"
     }
   },
   "about": {

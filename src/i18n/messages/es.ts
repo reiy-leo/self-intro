@@ -23,7 +23,8 @@ const messages: Messages = {
       "reicky": "reicky",
       "mindough": "Mindough",
       "sideDock": "Side Dock",
-      "melodyKeeeys": "Melody Keeeys"
+      "melodyKeeeys": "Melody Keeeys",
+      "vectorWallpapers": "Vector Wallpapers"
     },
     "summaries": {
       "navill": "Una extensión de navegador que importa tus marcadores una vez y los convierte en una nueva pestaña con espacios de trabajo y cajones. Se sincroniza con tu propio Google Drive.",
@@ -32,7 +33,8 @@ const messages: Messages = {
       "ydiyr": "Un manifiesto de una página sobre por qué los datos deben quedarse con sus dueños, y las apps hechas así.",
       "mindough": "Un gestor de tareas multiplataforma en desarrollo: encadena tareas para que la siguiente aparezca solo al terminar la anterior, con mapas de hábitos, diario y bibliotecas.",
       "sideDock": "Una herramienta de la barra de menús del Mac que da a cada escritorio su propia barra de Dock, sin tocar el Dock del sistema. No pide permisos y no deja rastro al salir.",
-      "melodyKeeeys": "Sonidos de teclado desde la barra de menús: clics reales grabados mientras escribes, 22 paquetes de sonido, en macOS, Windows y Linux."
+      "melodyKeeeys": "Sonidos de teclado desde la barra de menús: clics reales grabados mientras escribes, 22 paquetes de sonido, en macOS, Windows y Linux.",
+      "vectorWallpapers": "Un generador de fondos de escritorio SVG: elige un patrón, colorea cada elemento por separado y expórtalo. Incluye 27 patrones."
     }
   },
   "about": {

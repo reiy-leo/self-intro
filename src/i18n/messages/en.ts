@@ -23,7 +23,8 @@ const messages: Messages = {
       "reicky": "reicky",
       "mindough": "Mindough",
       "sideDock": "Side Dock",
-      "melodyKeeeys": "Melody Keeeys"
+      "melodyKeeeys": "Melody Keeeys",
+      "vectorWallpapers": "Vector Wallpapers"
     },
     "summaries": {
       "navill": "A browser extension that imports your bookmarks once and turns them into a new tab page of workspaces and drawers. Syncs through your own Google Drive.",
@@ -32,7 +33,8 @@ const messages: Messages = {
       "ydiyr": "A one-page manifesto on why data should stay with the people who own it, plus the apps built that way.",
       "mindough": "A cross-device task manager in progress: chain tasks so the next one shows up only when the last is done, plus habit heatmaps, a journal and libraries.",
       "sideDock": "A Mac menu-bar tool that gives each desktop its own extra Dock bar while the system Dock stays untouched. No system permissions, and it leaves no trace when it quits.",
-      "melodyKeeeys": "Keyboard sounds from your menu bar: real recorded key clicks as you type, 22 sound packs, on macOS, Windows and Linux."
+      "melodyKeeeys": "Keyboard sounds from your menu bar: real recorded key clicks as you type, 22 sound packs, on macOS, Windows and Linux.",
+      "vectorWallpapers": "An SVG desktop wallpaper generator: pick a pattern, color each element on its own, then export. 27 patterns built in."
     }
   },
   "about": {

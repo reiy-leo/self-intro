@@ -23,4 +23,9 @@ export const PROJECTS: Project[] = [
   { id: "mindough", site: "https://mindough.rei8t.dev", repo: "https://github.com/reiy-leo/Mindough" },
   { id: "sideDock", repo: "https://github.com/reiy-leo/side-dock" },
   { id: "melodyKeeeys", repo: "https://github.com/reiy-leo/melody-keeeys" },
+  {
+    id: "vectorWallpapers",
+    site: "https://vector-wallpapers.rei8t.dev",
+    repo: "https://github.com/reiy-leo/vector-wallpapers",
+  },
 ];

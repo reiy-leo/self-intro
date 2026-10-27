@@ -23,7 +23,8 @@ const messages: Messages = {
       "reicky": "reicky",
       "mindough": "Mindough",
       "sideDock": "Side Dock",
-      "melodyKeeeys": "Melody Keeeys"
+      "melodyKeeeys": "Melody Keeeys",
+      "vectorWallpapers": "Vector Wallpapers"
     },
     "summaries": {
       "navill": "Eine Browser-Erweiterung, die deine Lesezeichen einmal importiert und daraus einen neuen Tab mit Arbeitsbereichen und Schubladen macht. Synchronisiert über dein eigenes Google Drive.",
@@ -32,7 +33,8 @@ const messages: Messages = {
       "ydiyr": "Ein einseitiges Manifest darüber, warum Daten bei ihren Besitzern bleiben sollten, samt den Apps, die so gebaut sind.",
       "mindough": "Ein geräteübergreifender Task-Manager in Arbeit: Aufgaben lassen sich verketten, sodass die nächste erst erscheint, wenn die vorige erledigt ist – dazu Gewohnheits-Heatmaps, ein Tagebuch und Bibliotheken.",
       "sideDock": "Ein Mac-Menüleisten-Tool, das jedem Schreibtisch eine eigene Dock-Leiste gibt, während das System-Dock unangetastet bleibt. Keine Systemberechtigungen, und beim Beenden bleibt keine Spur.",
-      "melodyKeeeys": "Tastaturklänge aus der Menüleiste: echte aufgenommene Tastenanschläge beim Tippen, 22 Soundpakete, für macOS, Windows und Linux."
+      "melodyKeeeys": "Tastaturklänge aus der Menüleiste: echte aufgenommene Tastenanschläge beim Tippen, 22 Soundpakete, für macOS, Windows und Linux.",
+      "vectorWallpapers": "Ein Generator für SVG-Desktop-Hintergründe: Muster wählen, jedes Element einzeln einfärben, exportieren. 27 Muster inklusive."
     }
   },
   "about": {
