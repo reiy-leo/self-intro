@@ -18,7 +18,7 @@ const messages = {
     "names": {
       "ydiyr": "你的数据你负责",
       "mimatory": "Mimatory 密码库存",
-      "reicky": "reicky",
+      "reicky": "reicky 灵气贴纸",
       "mindough": "Mindough 念头团",
       "sideDock": "Side Dock 侧边坞",
       "melodyKeeeys": "Melody Keeeys 旋律键音"
