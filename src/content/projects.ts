@@ -14,7 +14,7 @@ export type Project = {
 export const PROJECTS: Project[] = [
   { id: "navill", name: "Navill", site: "https://navill.rei8t.dev", repo: "https://github.com/reiy-leo/navill" },
   { id: "mimatory", site: "https://mimatory.rei8t.dev", repo: "https://github.com/reiy-leo/mimatory" },
-  { id: "reicky", repo: "https://github.com/reiy-leo/reicky" },
+  { id: "reicky", site: "https://reicky.rei8t.dev", repo: "https://github.com/reiy-leo/reicky" },
   {
     id: "ydiyr",
     site: "https://your-data-is-your-responsibility.rei8t.dev",
