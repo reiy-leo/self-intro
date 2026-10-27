@@ -47,3 +47,18 @@ a { color: inherit; }
 .dark .rn-tone-3 { background: rgba(150, 135, 240, 0.18); color: #bfb5f7; box-shadow: inset 0 0 0 1px rgba(150, 135, 240, 0.22); }
 .dark .rn-tone-4 { background: rgba(110, 200, 120, 0.15); color: #9ad8a1; box-shadow: inset 0 0 0 1px rgba(110, 200, 120, 0.2); }
 .dark .rn-tone-5 { background: rgba(60, 200, 200, 0.15); color: #8ad8d6; box-shadow: inset 0 0 0 1px rgba(60, 200, 200, 0.2); }
+
+/* 项目页标题后的图标链接：平时灰，hover 变深 */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: var(--radius-2);
+  color: var(--gray-9);
+  transition: color 120ms ease;
+}
+.icon-link:hover,
+.icon-link:focus-visible {
+  color: var(--gray-12);
+}
