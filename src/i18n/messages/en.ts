@@ -20,7 +20,10 @@ const messages: Messages = {
     "site": "Website",
     "source": "Source",
     "names": {
-      "ydiyr": "Your Data, Your Responsibility"
+      "ydiyr": "Your Data, Your Responsibility",
+      "mindough": "Mindough",
+      "sideDock": "Side Dock",
+      "melodyKeeeys": "Melody Keeeys"
     },
     "summaries": {
       "navill": "A browser extension that imports your bookmarks once and turns them into a new tab page of workspaces and drawers. Syncs through your own Google Drive.",

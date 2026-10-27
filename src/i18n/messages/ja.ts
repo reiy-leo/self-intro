@@ -20,7 +20,10 @@ const messages: Messages = {
     "site": "サイト",
     "source": "ソース",
     "names": {
-      "ydiyr": "あなたのデータはあなたの責任"
+      "ydiyr": "あなたのデータはあなたの責任",
+      "mindough": "Mindough",
+      "sideDock": "Side Dock",
+      "melodyKeeeys": "Melody Keeeys"
     },
     "summaries": {
       "navill": "ブックマークを一度取り込み、ワークスペースと引き出しに整理された新しいタブにするブラウザ拡張。自分の Google Drive で同期できます。",

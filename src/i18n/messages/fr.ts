@@ -20,7 +20,10 @@ const messages: Messages = {
     "site": "Site",
     "source": "Code source",
     "names": {
-      "ydiyr": "Vos données, votre responsabilité"
+      "ydiyr": "Vos données, votre responsabilité",
+      "mindough": "Mindough",
+      "sideDock": "Side Dock",
+      "melodyKeeeys": "Melody Keeeys"
     },
     "summaries": {
       "navill": "Une extension de navigateur qui importe vos favoris une fois et en fait un nouvel onglet organisé en espaces de travail et en tiroirs. Synchronisation via votre propre Google Drive.",

@@ -20,7 +20,10 @@ const messages: Messages = {
     "site": "Сайт",
     "source": "Код",
     "names": {
-      "ydiyr": "Ваши данные — ваша ответственность"
+      "ydiyr": "Ваши данные — ваша ответственность",
+      "mindough": "Mindough",
+      "sideDock": "Side Dock",
+      "melodyKeeeys": "Melody Keeeys"
     },
     "summaries": {
       "navill": "Расширение для браузера: один раз импортирует закладки и превращает их в новую вкладку с рабочими пространствами и ящиками. Синхронизация через ваш собственный Google Drive.",

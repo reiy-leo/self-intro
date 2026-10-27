@@ -20,7 +20,10 @@ const messages: Messages = {
     "site": "Situs",
     "source": "Kode",
     "names": {
-      "ydiyr": "Datamu, Tanggung Jawabmu"
+      "ydiyr": "Datamu, Tanggung Jawabmu",
+      "mindough": "Mindough",
+      "sideDock": "Side Dock",
+      "melodyKeeeys": "Melody Keeeys"
     },
     "summaries": {
       "navill": "Ekstensi browser yang mengimpor bookmark Anda sekali, lalu menyusunnya jadi tab baru berisi ruang kerja dan laci. Sinkron lewat Google Drive milik Anda sendiri.",

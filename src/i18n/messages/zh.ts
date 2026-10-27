@@ -18,7 +18,10 @@ const messages = {
     "site": "网站",
     "source": "源码",
     "names": {
-      "ydiyr": "你的数据你负责"
+      "ydiyr": "你的数据你负责",
+      "mindough": "Mindough 念头团",
+      "sideDock": "Side Dock 侧边坞",
+      "melodyKeeeys": "Melody Keeeys 旋律键音"
     },
     "summaries": {
       "navill": "浏览器扩展。把书签一次导进来，整理成「工作区 → 抽屉 → 书签」，打开新标签页就能用。可同步到你自己的 Google Drive。",

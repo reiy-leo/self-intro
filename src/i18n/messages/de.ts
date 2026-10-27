@@ -20,7 +20,10 @@ const messages: Messages = {
     "site": "Website",
     "source": "Quellcode",
     "names": {
-      "ydiyr": "Deine Daten, deine Verantwortung"
+      "ydiyr": "Deine Daten, deine Verantwortung",
+      "mindough": "Mindough",
+      "sideDock": "Side Dock",
+      "melodyKeeeys": "Melody Keeeys"
     },
     "summaries": {
       "navill": "Eine Browser-Erweiterung, die deine Lesezeichen einmal importiert und daraus einen neuen Tab mit Arbeitsbereichen und Schubladen macht. Synchronisiert über dein eigenes Google Drive.",
