@@ -10,9 +10,7 @@ const messages: Messages = {
   "language": "Idioma",
   "home": {
     "greeting": "Oi, eu sou o Rei.",
-    "intro": "De dia eu giro entre dispositivos médicos e sequenciamento genético: tocando registros, vigiando a qualidade, correndo atrás de projetos, escrevendo código e caçando mutações em dados de sequenciamento. Depois do expediente, monto umas ferramentinhas sob medida para mim.",
-    "seeProjects": "Ver meus projetos",
-    "aboutMe": "Mais sobre mim"
+    "intro": "De dia eu giro entre dispositivos médicos e sequenciamento genético: tocando registros, vigiando a qualidade, correndo atrás de projetos, escrevendo código e caçando mutações em dados de sequenciamento. Depois do expediente, monto umas ferramentinhas sob medida para mim."
   },
   "projects": {
     "title": "Projetos",

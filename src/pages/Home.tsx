@@ -1,6 +1,4 @@
-import { Link as RouterLink } from "react-router";
-import { Badge, Button, Flex, Heading, Text } from "@radix-ui/themes";
-import { ArrowRight } from "lucide-react";
+import { Badge, Flex, Heading, Text } from "@radix-ui/themes";
 import { useI18n } from "@/i18n";
 
 export function Home() {
@@ -19,17 +17,6 @@ export function Home() {
             {r.name}
           </Badge>
         ))}
-      </Flex>
-      <Flex gap="3" wrap="wrap" pt="2">
-        <Button asChild size="3" highContrast>
-          <RouterLink to="/projects">
-            {t.home.seeProjects}
-            <ArrowRight size={16} />
-          </RouterLink>
-        </Button>
-        <Button asChild size="3" variant="soft" color="gray">
-          <RouterLink to="/about">{t.home.aboutMe}</RouterLink>
-        </Button>
       </Flex>
     </Flex>
   );

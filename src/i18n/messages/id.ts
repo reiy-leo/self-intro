@@ -10,9 +10,7 @@ const messages: Messages = {
   "language": "Bahasa",
   "home": {
     "greeting": "Halo, saya Rei.",
-    "intro": "Siang hari saya berputar di antara alat kesehatan dan sekuensing gen: mengurus registrasi, mengawasi kualitas, mengejar proyek, menulis kode, dan memburu mutasi di data sekuensing. Selepas kerja, saya meracik alat-alat kecil yang praktis untuk diri sendiri.",
-    "seeProjects": "Lihat proyek saya",
-    "aboutMe": "Tentang saya"
+    "intro": "Siang hari saya berputar di antara alat kesehatan dan sekuensing gen: mengurus registrasi, mengawasi kualitas, mengejar proyek, menulis kode, dan memburu mutasi di data sekuensing. Selepas kerja, saya meracik alat-alat kecil yang praktis untuk diri sendiri."
   },
   "projects": {
     "title": "Proyek",
