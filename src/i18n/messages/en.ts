@@ -20,7 +20,9 @@ const messages: Messages = {
     "site": "Website",
     "source": "Source",
     "names": {
-      "ydiyr": "Your Data, Your Responsibility",
+      "ydiyr": "Your data is your responsibility",
+      "mimatory": "Mimatory",
+      "reicky": "reicky",
       "mindough": "Mindough",
       "sideDock": "Side Dock",
       "melodyKeeeys": "Melody Keeeys"

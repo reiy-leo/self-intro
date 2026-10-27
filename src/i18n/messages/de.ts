@@ -21,6 +21,8 @@ const messages: Messages = {
     "source": "Quellcode",
     "names": {
       "ydiyr": "Deine Daten, deine Verantwortung",
+      "mimatory": "Mimatory",
+      "reicky": "reicky",
       "mindough": "Mindough",
       "sideDock": "Side Dock",
       "melodyKeeeys": "Melody Keeeys"

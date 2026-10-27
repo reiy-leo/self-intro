@@ -13,8 +13,8 @@ export type Project = {
 // 手选列表（Rei 2026-10-26 确认）。说明文字在 src/i18n/messages/*.ts。
 export const PROJECTS: Project[] = [
   { id: "navill", name: "Navill", site: "https://navill.rei8t.dev", repo: "https://github.com/reiy-leo/navill" },
-  { id: "mimatory", name: "Mimatory", site: "https://mimatory.rei8t.dev", repo: "https://github.com/reiy-leo/mimatory" },
-  { id: "reicky", name: "Reicky", repo: "https://github.com/reiy-leo/reicky" },
+  { id: "mimatory", site: "https://mimatory.rei8t.dev", repo: "https://github.com/reiy-leo/mimatory" },
+  { id: "reicky", repo: "https://github.com/reiy-leo/reicky" },
   {
     id: "ydiyr",
     site: "https://your-data-is-your-responsibility.rei8t.dev",
