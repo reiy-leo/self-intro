@@ -26,7 +26,10 @@ const messages: Messages = {
       "navill": "Una extensión de navegador que importa tus marcadores una vez y los convierte en una nueva pestaña con espacios de trabajo y cajones. Se sincroniza con tu propio Google Drive.",
       "mimatory": "Un gestor de contraseñas cifrado para Mac que rellena contraseñas en el navegador y, si quieres, sincroniza con tu propio Google Drive o WebDAV.",
       "reicky": "Notas adhesivas de escritorio multiplataforma, tan ligeras como Stickies de macOS. Las notas se archivan, nunca se borran.",
-      "ydiyr": "Un manifiesto de una página sobre por qué los datos deben quedarse con sus dueños, y las apps hechas así."
+      "ydiyr": "Un manifiesto de una página sobre por qué los datos deben quedarse con sus dueños, y las apps hechas así.",
+      "mindough": "Un gestor de tareas multiplataforma en desarrollo: encadena tareas para que la siguiente aparezca solo al terminar la anterior, con mapas de hábitos, diario y bibliotecas.",
+      "sideDock": "Una herramienta de la barra de menús del Mac que da a cada escritorio su propia barra de Dock, sin tocar el Dock del sistema. No pide permisos y no deja rastro al salir.",
+      "melodyKeeeys": "Sonidos de teclado desde la barra de menús: clics reales grabados mientras escribes, 22 paquetes de sonido, en macOS, Windows y Linux."
     }
   },
   "about": {

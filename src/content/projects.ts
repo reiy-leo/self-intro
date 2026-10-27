@@ -20,4 +20,7 @@ export const PROJECTS: Project[] = [
     site: "https://your-data-is-your-responsibility.rei8t.dev",
     repo: "https://github.com/reiy-leo/ydiyr",
   },
+  { id: "mindough", name: "Mindough", site: "https://mindough.rei8t.dev", repo: "https://github.com/reiy-leo/Mindough" },
+  { id: "sideDock", name: "MultiDock", repo: "https://github.com/reiy-leo/side-dock" },
+  { id: "melodyKeeeys", name: "Melody Keeeys", repo: "https://github.com/reiy-leo/melody-keeeys" },
 ];

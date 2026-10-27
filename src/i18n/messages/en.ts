@@ -26,7 +26,10 @@ const messages: Messages = {
       "navill": "A browser extension that imports your bookmarks once and turns them into a new tab page of workspaces and drawers. Syncs through your own Google Drive.",
       "mimatory": "An encrypted password manager for the Mac that fills passwords in your browser and syncs through your own Google Drive or WebDAV, if you want it to.",
       "reicky": "A cross-platform desktop sticky-note app, as light as macOS Stickies. Notes are archived, never deleted.",
-      "ydiyr": "A one-page manifesto on why data should stay with the people who own it, plus the apps built that way."
+      "ydiyr": "A one-page manifesto on why data should stay with the people who own it, plus the apps built that way.",
+      "mindough": "A cross-device task manager in progress: chain tasks so the next one shows up only when the last is done, plus habit heatmaps, a journal and libraries.",
+      "sideDock": "A Mac menu-bar tool that gives each desktop its own extra Dock bar while the system Dock stays untouched. No system permissions, and it leaves no trace when it quits.",
+      "melodyKeeeys": "Keyboard sounds from your menu bar: real recorded key clicks as you type, 22 sound packs, on macOS, Windows and Linux."
     }
   },
   "about": {

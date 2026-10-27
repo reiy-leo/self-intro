@@ -26,7 +26,10 @@ const messages: Messages = {
       "navill": "Eine Browser-Erweiterung, die deine Lesezeichen einmal importiert und daraus einen neuen Tab mit Arbeitsbereichen und Schubladen macht. Synchronisiert über dein eigenes Google Drive.",
       "mimatory": "Ein verschlüsselter Passwortmanager für den Mac, der Passwörter im Browser ausfüllt und auf Wunsch über dein eigenes Google Drive oder WebDAV synchronisiert.",
       "reicky": "Plattformübergreifende Haftnotizen für den Desktop, so leicht wie Stickies unter macOS. Notizen werden archiviert, nie gelöscht.",
-      "ydiyr": "Ein einseitiges Manifest darüber, warum Daten bei ihren Besitzern bleiben sollten, samt den Apps, die so gebaut sind."
+      "ydiyr": "Ein einseitiges Manifest darüber, warum Daten bei ihren Besitzern bleiben sollten, samt den Apps, die so gebaut sind.",
+      "mindough": "Ein geräteübergreifender Task-Manager in Arbeit: Aufgaben lassen sich verketten, sodass die nächste erst erscheint, wenn die vorige erledigt ist – dazu Gewohnheits-Heatmaps, ein Tagebuch und Bibliotheken.",
+      "sideDock": "Ein Mac-Menüleisten-Tool, das jedem Schreibtisch eine eigene Dock-Leiste gibt, während das System-Dock unangetastet bleibt. Keine Systemberechtigungen, und beim Beenden bleibt keine Spur.",
+      "melodyKeeeys": "Tastaturklänge aus der Menüleiste: echte aufgenommene Tastenanschläge beim Tippen, 22 Soundpakete, für macOS, Windows und Linux."
     }
   },
   "about": {

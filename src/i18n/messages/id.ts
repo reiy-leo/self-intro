@@ -26,7 +26,10 @@ const messages: Messages = {
       "navill": "Ekstensi browser yang mengimpor bookmark Anda sekali, lalu menyusunnya jadi tab baru berisi ruang kerja dan laci. Sinkron lewat Google Drive milik Anda sendiri.",
       "mimatory": "Pengelola kata sandi terenkripsi untuk Mac yang mengisi kata sandi di browser dan, jika Anda mau, sinkron lewat Google Drive atau WebDAV milik Anda sendiri.",
       "reicky": "Catatan tempel desktop lintas platform, seringan Stickies di macOS. Catatan hanya diarsipkan, tidak pernah dihapus.",
-      "ydiyr": "Manifesto satu halaman tentang mengapa data harus tetap di tangan pemiliknya, beserta aplikasi yang dibuat dengan cara itu."
+      "ydiyr": "Manifesto satu halaman tentang mengapa data harus tetap di tangan pemiliknya, beserta aplikasi yang dibuat dengan cara itu.",
+      "mindough": "Pengelola tugas lintas perangkat yang sedang dibuat: rangkai tugas agar yang berikutnya baru muncul setelah yang sebelumnya selesai, plus peta kebiasaan, jurnal, dan pustaka.",
+      "sideDock": "Alat bilah menu Mac yang memberi setiap desktop bilah Dock sendiri, tanpa mengubah Dock sistem. Tanpa izin sistem, dan tidak meninggalkan jejak saat ditutup.",
+      "melodyKeeeys": "Suara keyboard dari bilah menu: bunyi tombol hasil rekaman asli saat mengetik, 22 paket suara, untuk macOS, Windows, dan Linux."
     }
   },
   "about": {
