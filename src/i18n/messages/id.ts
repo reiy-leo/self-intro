@@ -10,7 +10,7 @@ const messages: Messages = {
   "language": "Bahasa",
   "home": {
     "greeting": "Halo, saya Rei.",
-    "intro": "Saya membuat alat-alat kecil untuk diri sendiri: ekstensi browser, aplikasi desktop, dan situs sederhana di Cloudflare. Data Anda seharusnya tetap di tangan Anda.",
+    "intro": "Siang hari saya berputar di antara alat kesehatan dan sekuensing gen: mengurus registrasi, mengawasi kualitas, mengejar proyek, menulis kode, dan memburu mutasi di data sekuensing. Selepas kerja, saya meracik alat-alat kecil yang praktis untuk diri sendiri.",
     "seeProjects": "Lihat proyek saya",
     "aboutMe": "Tentang saya"
   },

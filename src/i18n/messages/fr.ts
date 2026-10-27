@@ -10,7 +10,7 @@ const messages: Messages = {
   "language": "Langue",
   "home": {
     "greeting": "Bonjour, je suis Rei.",
-    "intro": "Je fabrique de petits outils pour moi : extensions de navigateur, applications de bureau et petits sites sur Cloudflare. Vos données devraient rester entre vos mains.",
+    "intro": "Le jour, je tourne entre dispositifs médicaux et séquençage génétique : je fais avancer les enregistrements, je surveille la qualité, je pousse les projets, j'écris du code et je traque les mutations dans les données de séquençage. Le soir, je me bricole de petits outils pratiques.",
     "seeProjects": "Voir mes projets",
     "aboutMe": "En savoir plus"
   },
