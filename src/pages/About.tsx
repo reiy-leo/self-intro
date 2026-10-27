@@ -1,5 +1,5 @@
 import { Box, Flex, Heading, Link, Text } from "@radix-ui/themes";
-import { ArrowUpRight } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { RichNote } from "@/components/RichNote";
 
@@ -22,10 +22,10 @@ export function About() {
       <RichNote source={a.hats} />
 
       <Box>
-        <Link href="https://github.com/reiy-leo" target="_blank" rel="noreferrer" size="3" color="gray" highContrast underline="hover">
-          <Flex align="center" gap="1">
-            {a.github}
-            <ArrowUpRight size={16} />
+        <Link href="mailto:hi@rei8t.dev" size="3" color="gray" highContrast underline="hover">
+          <Flex align="center" gap="2">
+            <Mail size={16} />
+            {a.contact}
           </Flex>
         </Link>
       </Box>

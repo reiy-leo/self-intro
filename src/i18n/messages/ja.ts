@@ -61,7 +61,7 @@ const messages: Messages = {
         "name": "シーケンスデータの探偵"
       }
     ],
-    "github": "GitHub はこちら"
+    "contact": "ご連絡は hi@rei8t.dev まで"
   },
   "invites": {
     "title": "招待リンク",

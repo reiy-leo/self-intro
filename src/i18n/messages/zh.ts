@@ -59,7 +59,7 @@ const messages = {
         "name": "测序数据侦探"
       }
     ],
-    "github": "在 GitHub 上找我"
+    "contact": "发邮件到 hi@rei8t.dev 联系我"
   },
   "invites": {
     "title": "推荐邀请",

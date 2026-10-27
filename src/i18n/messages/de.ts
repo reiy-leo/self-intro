@@ -61,7 +61,7 @@ const messages: Messages = {
         "name": "Detektiv für Sequenzierdaten"
       }
     ],
-    "github": "Mich auf GitHub finden"
+    "contact": "Schreib mir an hi@rei8t.dev"
   },
   "invites": {
     "title": "Empfehlungen",

@@ -61,7 +61,7 @@ const messages: Messages = {
         "name": "Detektif data sekuensing"
       }
     ],
-    "github": "Temukan saya di GitHub"
+    "contact": "Hubungi saya di hi@rei8t.dev"
   },
   "invites": {
     "title": "Referal",

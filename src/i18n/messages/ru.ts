@@ -61,7 +61,7 @@ const messages: Messages = {
         "name": "Детектив данных секвенирования"
       }
     ],
-    "github": "Я на GitHub"
+    "contact": "Пишите мне на hi@rei8t.dev"
   },
   "invites": {
     "title": "Приглашения",
